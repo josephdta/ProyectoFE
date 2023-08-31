@@ -11,16 +11,21 @@ body{
     background-color: #ffff;
     width: 1440px;
     min-width: 100vw;
- 
+}
+
+.container{
+    width: 1440px;
+
 }
 
 header{
     font-size: 13px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
     padding: 65px, 165px, 65px, 165px;
     margin-top: 75px;
+    margin-left: 300px;
 }
 
 header svg{
@@ -40,5 +45,39 @@ header svg{
     padding: 5px 20px 5px 20px;
     font-size: 13px;
     color: #ffff;
+    width: 90px;
 }
 
+.padel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 120px;
+    margin-left: 300px;
+    gap: 70px;
+}
+
+.padel img{
+    width: 540px ;
+}
+
+.infopadel{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 25px;
+}
+
+.infopadel .live{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.infopadel .context{
+    font-weight: 500;
+    text-align: right;
+    font-size: 1rem;
+}
