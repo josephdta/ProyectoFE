@@ -47,7 +47,7 @@ header svg{
     font-size: 13px;
     color: #ffff;
     width: 90px;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 .contacto2{
@@ -75,12 +75,13 @@ header svg{
 }
 
 .infopadel{
+    font-size: 16.56px;
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: center;
     gap: 25px;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 .infopadel .live{
@@ -119,4 +120,44 @@ header svg{
     font-weight: 500;
     margin-right: 5px;
     
+}
+
+.perks{
+    background-color: #FAFAFA;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.perks1,.perks2,.perks3{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 40px;
+    gap: 20px;
+}
+
+.number{
+    background-color: #8B48BF;
+    border-radius: 30px;
+    color: #ffff;
+    padding: 10px;
+    height: 37px;
+    font-weight: 700;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.infoup{
+    font-weight: 700;
+}
+
+.infodown{
+    color: #B3B2B7
 }
