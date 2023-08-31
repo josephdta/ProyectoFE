@@ -81,3 +81,28 @@ header svg{
     text-align: right;
     font-size: 1rem;
 }
+
+.pros{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B48BF;
+}
+
+.prosizq, .prosder{
+    color: #ffff;
+    padding: 25px 50px 25px 50px;
+}
+
+.prosizq{
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 25px;
+}
+
+.prosder{
+    font-weight: 500;
+    margin-right: 5px;
+}
