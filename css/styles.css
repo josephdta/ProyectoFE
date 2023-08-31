@@ -11,6 +11,7 @@ body{
     background-color: #ffff;
     width: 1440px;
     min-width: 100vw;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .container{
@@ -30,6 +31,7 @@ header{
 
 header svg{
     width: 73px;
+    margin-left: 100px;
 }
 
 .navbar-center{
@@ -39,10 +41,19 @@ header svg{
 }
 
 .contacto{
-    /* border: 1px solid black; */
     background-color: #8B48BF;
     border-radius: 40px;
-    padding: 5px 20px 5px 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 13px;
+    color: #ffff;
+    width: 90px;
+    margin-right: 100px;
+}
+
+.contacto2{
+    background-color: #8B48BF;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
     font-size: 13px;
     color: #ffff;
     width: 90px;
@@ -52,14 +63,15 @@ header svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    /* padding: 25px; */
     margin-top: 120px;
     margin-left: 300px;
     gap: 70px;
 }
 
 .padel img{
-    width: 540px ;
+    width: 500px ;
+    margin-left: 100px;
 }
 
 .infopadel{
@@ -68,10 +80,11 @@ header svg{
     align-items: end;
     justify-content: center;
     gap: 25px;
+    margin-right: 100px;
 }
 
 .infopadel .live{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-align: right;
 }
@@ -105,4 +118,5 @@ header svg{
 .prosder{
     font-weight: 500;
     margin-right: 5px;
+    
 }
