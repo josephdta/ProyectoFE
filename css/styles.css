@@ -161,3 +161,95 @@ header svg{
 .infodown{
     color: #B3B2B7
 }
+
+.rank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best{
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.players{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 50px;
+    justify-content: space-between;
+    gap: 0px;
+    background-color: #FAFAFA;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAFAFA;
+}
+
+.cards img{
+    position: absolute;
+    z-index: 11;
+    top: 1475px;
+    width: 87px;
+}
+
+.playername{
+    margin-top: 50px;
+    padding: 25px;
+    color: #3F4868;
+    font-weight: 700;
+} 
+
+.playerdes{
+    color: #B9B9C1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.more{
+    background-color: #8B48BF;
+    border-radius: 40px;
+    padding: 10px 20px 10px 30px;
+    font-size: 13px;
+    color: #ffff;
+    width: 90px; 
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.teams{
+    background-color: #8B48BF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px 25px 80px;
+    margin-left: 300px;
+}
+
+.textleft{
+    color: #ffff;
+    font-size: 35px;
+    width: 390px;
+    font-weight: 700;
+}
+
+.go{
+    background-color: #ffff;
+    border-radius: 40px;
+    padding: 10px 20px 10px 30px;
+    font-size: 13px;
+    color: #8B48BF;
+    width: 100px;  
+    margin-right: 40px;
+}
