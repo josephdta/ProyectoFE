@@ -297,6 +297,12 @@ header svg{
     margin-bottom: 100px;
 }
 
+.more:hover {
+    background-color:  rgba(139, 72, 191, 0.559);
+
+   
+}
+
 .teams{
     background-color: #8B48BF;
     display: flex;
