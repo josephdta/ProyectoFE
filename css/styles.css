@@ -392,6 +392,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    width: 50px;
+    
 }
 
 form{
@@ -590,6 +592,7 @@ form{
 
     .footerright{
         align-items: center;
+        
     }
 
     .footercenter{
