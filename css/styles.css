@@ -320,3 +320,9 @@ form{
     color: #8C8C94;
     font-size: 12.5px;
 }
+
+@media (max-width:468px){
+    header{
+        margin-left: 0px;
+    }
+}
