@@ -47,23 +47,45 @@ header svg{
 
 }
 
+.live{
+   
+    color:rgba(35, 44, 80, 1);
+    font-size: 50px;
+}
+
+.context{
+   
+    color:rgb(0, 0, 1);
+    line-height: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    font-weight: 700;  
+}
+
+
+
 .community:hover {
     color: rgb(154, 144, 144);
 }
 
 .training:hover {
     color: rgb(154, 144, 144);
+   
 }
 
 .aboutus:hover {
     color: rgb(154, 144, 144);
+    
 }
 
 .products:hover {
     color: rgb(154, 144, 144);
+   
 }
 .sports:hover {
     color: rgb(154, 144, 144);
+   
 }
 .contacto{
     background-color: #8B48BF;
@@ -99,13 +121,14 @@ header svg{
 }
 
 .infopadel{
-    font-size: 16.56px;
+    
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     margin-right: 90px;
+    font-weight: 700;
 }
 
 .infopadel .live{
@@ -548,12 +571,13 @@ form{
     @font-face {
         font-family: 'Be Vietnam Pro';
         src: url('fuentes/BeVietnamPro-Regular.ttf') format('ttf'), /* ttf */
-             url('fuentes/BeVietnamPro-Regular.woff2') format('woff2'); /* woff2 */
+             url('fuentes/BeVietnamPro-Regular.woff2') format('woff2'), /* woff2 */
+             url('fuentes/BeVietnamPro-Bold.ttf') format('ttf'); /* woff2 */
         /* Agrega otros formatos de fuente si los tienes, como TTF o OTF */
       }
 
     body {
-        font-family: 'Be Vietnam Pro';
+        font-family: 'Be Vietnam Pro'; 
       }
 
       @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
