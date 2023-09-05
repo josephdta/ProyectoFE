@@ -57,10 +57,7 @@ header svg{
     font-weight: 700; 
     color:rgb(0, 0, 1);
     line-height: 24px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    display: grid;
-     
+    
 }
 
 
@@ -417,6 +414,8 @@ form{
         flex: 1;
     }
 
+    
+
     header{
         margin-top: 30px;
         margin-left: 0;
@@ -426,6 +425,11 @@ form{
     header svg{
         width: 50px;
         margin-left: 50px;
+    }
+
+    .context{
+        width: 480px;
+       
     }
 
     .padel{
