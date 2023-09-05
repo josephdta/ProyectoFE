@@ -30,6 +30,10 @@ header{
     margin-left: 300px;
 }
 
+header img{
+    display: none;
+}
+
 header svg{
     width: 73px;
     margin-left: 100px;
@@ -103,6 +107,10 @@ header svg{
     justify-content: center;
     align-items: center;
     background-color: #8B48BF;
+}
+
+.proshide{
+    display: none;
 }
 
 .prosizq, .prosder{
@@ -189,22 +197,36 @@ header svg{
     background-color: #FAFAFA;
 }
 
-.cards{
+.cards1,.cards2,.cards3{
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #FAFAFA;
 }
 
-.cards img{
-    position: absolute;
+.cards1 img{
+    position: relative;
     z-index: 11;
-    top: 1475px;
+    top: -35px;
+    width: 87px;
+}
+
+.cards2 img{
+    position: relative;
+    z-index: 11;
+    top: -35px;
+    width: 87px;
+}
+
+.cards3 img{
+    position: relative;
+    z-index: 11;
+    top: -35px;
     width: 87px;
 }
 
 .playername{
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 25px;
     color: #3F4868;
     font-weight: 700;
@@ -266,7 +288,7 @@ footer{
 
 .footerleft{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     gap: 50px;
     margin-left: 50px;
@@ -278,6 +300,16 @@ footer{
 
 .socials svg{
     width: 30px;
+}
+
+.copyhide{
+    display: none;
+}
+
+.footercenter{
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
 }
 
 .footer2{
@@ -320,3 +352,178 @@ form{
     color: #8C8C94;
     font-size: 12.5px;
 }
+
+@media (max-width:480px){
+    body{
+        width: 480px;
+
+    }
+
+    .container{
+        width: 480px;
+        flex: 1;
+    }
+
+    header{
+        margin-top: 30px;
+        margin-left: 0;
+        justify-content: space-around;
+    }
+
+    header svg{
+        width: 50px;
+        margin-left: 50px;
+    }
+
+    .padel{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
+    .padel img{
+        margin-left: 50px;
+        width: 350px;
+    }
+
+    .infopadel{
+        margin-right: 40px;
+    }
+
+    .contacto,.navbar-center{
+        display: none;
+    }
+
+
+    header img{
+        display: flex;
+        width: 30px;
+        margin-right: 50px;
+    }
+
+    .pros{
+        flex-direction: column;
+        margin-left: 0px;
+        background-color: #3CDDF3;
+        justify-content: left;
+    }
+
+    .prosizq,.proshide{
+        margin-left: 0px;
+        padding: 35px 50px 35px 20px;
+    }
+
+    .prosder{
+        display: none;
+    }
+
+    .proshide{
+        display:flex;
+        font-weight: 500;
+        color: #ffff;
+    }
+
+    .perks{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .perks1,.perks2,.perks3{
+        gap: 0px;
+        padding: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .info{
+        gap: 30px;
+        padding: 0px;
+    }
+
+    .infoup{
+        background-color: #8B48BF4D;
+        border-radius: 30px;
+        height: 37px;
+        gap: 0px;
+        padding: 10px 10px 10px 10px; 
+    }
+
+    .rank,.best,.players{
+        margin-left: 0px;
+    }
+
+    .players{
+        margin-right: 0px;
+    }
+
+    .cards1,.cards3{
+        display: none;
+    }
+
+    .playername{
+        margin-top: -20px;
+    }
+
+    .more{
+        margin-left: 0px;
+    }
+
+    .teams{
+        margin-left: 0px;
+        background-color:#3CDDF3;
+        flex-direction: column;
+        gap: 40px;
+        padding: 25px 40px 25px 40px;
+    }
+
+    .textleft{
+        width: 210px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .go{
+        background-color: #232C50;
+        color: #ffff;
+        margin-right: 0px;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 0px;
+        gap: 50px;
+    }
+
+    .copy{
+        display: none;
+    }
+
+    .footerright{
+        align-items: center;
+    }
+
+    .footercenter{
+        gap: 170px;
+        justify-content: space-between;
+    }
+
+    .footerleft{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .copyhide{
+        display: inline;
+    }
+
+    .socials{
+        display: flex;
+        justify-content: space-between;
+        gap: 45px;
+    }
+}
+
+
