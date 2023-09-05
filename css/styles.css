@@ -43,8 +43,28 @@ header svg{
     display: flex;
     gap: 28px;
     font-weight: 500px;
+    color: rgba(36, 46, 82, 1);
+
 }
 
+.community:hover {
+    color: rgb(154, 144, 144);
+}
+
+.training:hover {
+    color: rgb(154, 144, 144);
+}
+
+.aboutus:hover {
+    color: rgb(154, 144, 144);
+}
+
+.products:hover {
+    color: rgb(154, 144, 144);
+}
+.sports:hover {
+    color: rgb(154, 144, 144);
+}
 .contacto{
     background-color: #8B48BF;
     border-radius: 40px;
@@ -524,6 +544,19 @@ form{
         justify-content: space-between;
         gap: 45px;
     }
+
+    @font-face {
+        font-family: 'Be Vietnam Pro';
+        src: url('fuentes/BeVietnamPro-Regular.ttf') format('ttf'), /* ttf */
+             url('fuentes/BeVietnamPro-Regular.woff2') format('woff2'); /* woff2 */
+        /* Agrega otros formatos de fuente si los tienes, como TTF o OTF */
+      }
+
+    body {
+        font-family: 'Be Vietnam Pro';
+      }
+
+      @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 }
 
 
