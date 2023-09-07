@@ -70,25 +70,26 @@ header svg{
 
 .community:hover {
     color: rgb(154, 144, 144);
+    cursor: pointer;
 }
 
 .training:hover {
     color: rgb(154, 144, 144);
-   
+    cursor: pointer;
 }
 
 .aboutus:hover {
     color: rgb(154, 144, 144);
-    
+    cursor: pointer;
 }
 
 .products:hover {
     color: rgb(154, 144, 144);
-   
+    cursor: pointer;
 }
 .sports:hover {
     color: rgb(154, 144, 144);
-   
+    cursor: pointer;
 }
 .contacto{
     background-color: #8B48BF;
@@ -100,6 +101,11 @@ header svg{
     margin-right: 90px;
 }
 
+.contacto:hover {
+    background-color:  rgba(139, 72, 191, 0.559);
+    cursor: pointer;
+}
+
 .contacto2{
     background-color: #8B48BF;
     border-radius: 40px;
@@ -107,6 +113,11 @@ header svg{
     font-size: 13px;
     color: #ffff;
     width: 90px;
+}
+
+.contacto2:hover {
+    background-color:  rgba(139, 72, 191, 0.559);
+    cursor: pointer;
 }
 
 .padel{
@@ -188,7 +199,7 @@ header svg{
 .perks1,.perks2,.perks3{
     display: flex;
     flex-wrap: nowrap;
-    padding: 40px;
+    padding: 25px;
     gap: 20px;
     line-height: 24px;
 }
@@ -274,7 +285,8 @@ header svg{
 }
 
 .playername{
-    margin-top: 10px;
+    margin-top: -15px;
+    margin-bottom: 15px;
     padding: 25px;
     color: #3F4868;
     font-weight: 700;
@@ -284,6 +296,7 @@ header svg{
     color: #B9B9C1;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
 }
 
 .more{
@@ -300,6 +313,7 @@ header svg{
 
 .more:hover {
     background-color:  rgba(139, 72, 191, 0.559);
+    cursor: pointer;
 }
 
 .teams{
@@ -394,7 +408,7 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 5px;
-    width: 225px;
+    width: 235px;
 }
 
 .formulario{
@@ -514,6 +528,7 @@ input[type="text"]{
         padding: 40px;
         z-index: 3;
         position: relative;
+        margin-top: 20px;
     }
 
     .infoup{
@@ -628,15 +643,7 @@ input[type="text"]{
         margin-right: 0px;
     }
 
-    @font-face {
-        font-family: 'Be Vietnam Pro';
-        src: url('fuentes/BeVietnamPro-Regular.ttf') format('ttf'), /* ttf */
-             url('fuentes/BeVietnamPro-Regular.woff2') format('woff2'), /* woff2 */
-             url('fuentes/BeVietnamPro-Bold.ttf') format('ttf'); /* woff2 */
-        /* Agrega otros formatos de fuente si los tienes, como TTF o OTF */
-      }
 
-      @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 }
 
 
